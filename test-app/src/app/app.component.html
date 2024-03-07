@@ -1,0 +1,9 @@
+<input type="number" name="" id="" [(ngModel)]="number">
+<button (click)="submit()">Submit</button>
+
+<div *ngIf="data">
+    <p *ngFor="let item of data;index">Data at is {{item.data}} </p>
+</div>
+
+<button (click)="getAllData()">Next</button>
+<router-outlet></router-outlet>
