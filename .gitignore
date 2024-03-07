@@ -1,4 +1,4 @@
 /test-app/node_modules/
+/test-app-server/node_modules/
 /test-app/.vscode/
 test-app/.angular/
-/test-app-server/node_modules/
